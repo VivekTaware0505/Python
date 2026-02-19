@@ -24,3 +24,13 @@ b = float(input("enter second value :"))
 print("average is = ", (a+b) /2)
 
 
+# write a program to input 2 int numbers, a and b print true if a is greater than or equal to b. if not print false
+
+num1 = int (input("enter first number :"))
+num2 = int (input("enter second number:"))
+
+
+if (num1>=num2):
+    print("true")
+else:
+    print("false")
