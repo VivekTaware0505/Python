@@ -9,6 +9,11 @@ num2 = float (1.11)
 
 print(num1+num2," value after addition  ")
 
+num3 = int ("12 ")
+num4 = int (11)
+
+print(num3 + num4 , "addition two numbers ")
+
 
 # index number \ printing characters using ndex number as we want 
 
