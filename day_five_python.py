@@ -30,10 +30,15 @@ print("--------------------------------------------------------------------")
 
 newstr1 = "hallo wolrd \nmy is vivek taware"
 newstr2 = "hallo wolrd \n my is vivek taware"
+len1 = len(newstr1)
+print(len1)
+
+
 
 onestr="hallo wolrd "
 twostr = "my name is vivek taware"
-final_str = onestr+twostr
+final_str = onestr+" 🙏 "+twostr
+final_len = len(final_str)
 
 print(newstr1)
 print(newstr2)
