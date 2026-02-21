@@ -23,3 +23,18 @@ print(name[0:4])
 print(name[2:])
 print(name[:6])
 print(name[1:9])
+
+print("--------------------------------------------------------------------")
+
+# break a string into next line and add tab space in a string 
+
+newstr1 = "hallo wolrd \nmy is vivek taware"
+newstr2 = "hallo wolrd \n my is vivek taware"
+
+onestr="hallo wolrd "
+twostr = "my name is vivek taware"
+final_str = onestr+twostr
+
+print(newstr1)
+print(newstr2)
+print(final_str)
