@@ -2,6 +2,8 @@ str ='vivek'
 str1 = "hallo vivek ? "
 str2 = """ hallo vivek how are you and hows going your python learning """
 
+print("--------------------------------------------------------------------")
+
 # type casting examples 
 
 num1 = int ("11")
@@ -13,6 +15,9 @@ num3 = int ("12 ")
 num4 = int (11)
 
 print(num3 + num4 , "addition two numbers ")
+
+
+print("--------------------------------------------------------------------")
 
 
 # index number \ printing characters using ndex number as we want 
@@ -43,3 +48,4 @@ final_len = len(final_str)
 print(newstr1)
 print(newstr2)
 print(final_str)
+print(final_len)
