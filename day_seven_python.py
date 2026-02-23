@@ -18,3 +18,9 @@ print(surname)
 print("length of your surname ",len(surname))
 print(name)
 print("length of your name ",len(name))
+
+
+#write a program to find the occurance of $ in a string
+
+newstr = "the american doller $ is this and we pay 700$ to some $$$  "
+print(newstr.count("$"))
