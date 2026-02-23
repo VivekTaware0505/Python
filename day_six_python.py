@@ -17,3 +17,9 @@ print(str.capitalize())
 # replace
 print(str.replace("o","V"))
 print(str.replace("pune","akluj"))
+
+
+# find function returns first index number of that word 
+print(str.find("p"))
+print(str.find("o"))
+print(str.find("b"))# that latter doesn't exist in our string
