@@ -19,3 +19,37 @@ elif(light == "yellow"):
     print("look and go slow")
 else:
     print("light is broken")
+
+
+    # finding grade using contional statements
+
+
+grade = int(input("enter your marks get grades : "))
+
+if(grade>=90):
+    print("you got grade :A: ")
+elif(grade>= 80 and grade < 90):
+    print("you got grade :B: ")
+elif(grade>= 70 and grade < 80):
+    print("you got grade :C: ")
+elif(grade>= 60 and grade < 70):
+    print("you got grade :D: ")
+else:
+    print("you are fail")
+
+    # new 
+marks = int(input("enter students marks : "))
+
+if(marks >= 90):
+    g = "A"
+elif(marks >= 80 and marks < 90 ):
+    g ="B"
+elif(marks >= 70 and marks < 80):
+    g = "C"
+else:
+    g = 'D'
+
+print("students grade -> : ", g)
+
+
+# nested if statements using 
