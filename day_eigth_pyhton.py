@@ -52,4 +52,14 @@ else:
 print("students grade -> : ", g)
 
 
-# nested if statements using 
+# nested if statements using nested if finding the candidate was able to lead election or not
+
+election_age = int(input("enter your agr to know : "))
+
+if(election_age >= 21):
+    if(election_age >= 80):
+        print("your age is paased for election")
+    else:
+        print("you can lead elections")
+else:
+    print("you not fill form")
