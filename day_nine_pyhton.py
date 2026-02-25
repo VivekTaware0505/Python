@@ -17,8 +17,27 @@ b = int(input("enter second number : "))
 c = int(input("enter third number : "))
 
 if(a >= b and b >= c):
-    print("first number is largest : " , a )
+   print("first number is largest : " , a )
 elif(b >= c):
-    print("second number is largest : " , b)
+   print("second number is largest : " , b)
 else:
-    print("third number is largest : ", c)
+  print("third number is largest : ", c)
+
+
+
+
+# write a program to find the grestest of 4 number enetered by the user
+
+x = int( input("enter first number : "))
+y = int(input("enter second number : "))
+z = int(input("enter third number : "))
+d = int(input("enter fourth number  : "))
+
+if(x >= y and y >= z):
+    print("first number is largest : " , x)
+elif(y >= z and z >= d):
+    print("second number is largest : " , y)
+elif(z >= x and x >= d):
+    print("third number is largest : " , z)
+else:
+    print("fourth number is lagest : " , d)
