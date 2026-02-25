@@ -10,6 +10,9 @@ else:
     print("number is ODD ")
 
 
+print("-------------------------------------------------------VIVEK------------------------------------------------------------")
+
+
 # write a program to find the greatest of 3 numbers entered bye the user
 
 a = int(input("enter first number : "))
@@ -24,7 +27,7 @@ else:
   print("third number is largest : ", c)
 
 
-
+print("-------------------------------------------------------VIVUQCYdXT16Xxzr1qCSVxxntce0-UYXmcqJ_aodkoq39Fv2E6f--------------")
 
 # write a program to find the grestest of 4 number enetered by the user
 
@@ -41,3 +44,25 @@ elif(z >= x and x >= d):
     print("third number is largest : " , z)
 else:
     print("fourth number is lagest : " , d)
+
+    
+print("-------------------------------------------------------VIVUQCYdXT16Xxzr1qCSVxxntce0-UYXmcqJ_aodkoq39Fv2E6f--------------")
+
+# write a program if a number is multiple of 7 or not 
+
+num = int(input("enter number to check"))
+
+if(num % 7 ==0):
+    print(" number is multiple by 7 : " , num)
+else:
+    print("not multiple bye 7 : " , num)
+
+
+# or not multiple bye 5 
+
+num2 = int(input("enter number to check "))
+
+if(num2 % 5 ==0):
+    print("multiple by 5 : " , num2)
+else:
+    print(num2 , "is not multiple by 5 ")
