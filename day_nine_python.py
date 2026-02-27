@@ -26,3 +26,17 @@ print(new_marks[:5])
 print(new_marks[1:])
 print(new_marks[-4:-1]) # this is the reverse string so access it bye reverse way
 print(new_marks[-5])
+
+
+# list methods 
+
+#append and sor method
+
+list = [4,5,3,1,2,6]
+
+print(list)
+list.append(9)
+print(list)
+print(list.sort()) # returnt none value to see the value we print it and after print this on 
+                      # next time he prints ascending orde of list
+print(list)
