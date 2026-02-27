@@ -30,7 +30,7 @@ print(new_marks[-5])
 
 # list methods 
 
-#append and sor method
+#append and sort method
 
 list = [4,5,3,1,2,6]
 
@@ -39,4 +39,9 @@ list.append(9)
 print(list)
 print(list.sort()) # returnt none value to see the value we print it and after print this on 
                       # next time he prints ascending orde of list
+print(list)
+
+# revese sort in list method
+
+list.sort(reverse=True)
 print(list)
