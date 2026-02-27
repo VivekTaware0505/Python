@@ -18,3 +18,11 @@ print(marks[0])
 
 # list slicing in python
 
+
+new_marks = [10,20,30,40,50,60,70]
+
+print(new_marks[1:4])
+print(new_marks[:5])
+print(new_marks[1:])
+print(new_marks[-4:-1]) # this is the reverse string so access it bye reverse way
+print(new_marks[-5])
