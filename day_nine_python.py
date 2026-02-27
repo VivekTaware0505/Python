@@ -16,3 +16,5 @@ print(marks)
 print(marks[0])
 
 
+# list slicing in python
+
