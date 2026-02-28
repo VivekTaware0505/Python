@@ -36,7 +36,7 @@ print("------------------------------------------end line-----------------------
 
 #append and sort method
 
-list = [4,5,3,1,2,6]
+list = [4,5,3,1,2,6,1]
 
 print(list)
 list.append(9)
@@ -75,4 +75,30 @@ print(fruit) # before sorting
 fruit.sort()
 
 print(fruit) # after sorting
+
+print("--------------------------------------end line ------------------------------------------------------")
+
+fruit.insert(2,"grapes") # insert new element 
+print(fruit)
+
+
+print("--------------------------------------end line ------------------------------------------------------")
+
+# remove method and popmethod in list slicing
+
+list.remove(5) # it removes the exact value which give bye the user
+list.pop(3)# it removes the element by using index number 
+
+print(list)
+
+print("--------------------------------------end line ------------------------------------------------------")
+# remove method and popmethod in list slicing
+
+fruit.remove("banana")
+fruit.pop(2)
+
+print(fruit)
+
+
+
 print("--------------------------------------end line ------------------------------------------------------")
