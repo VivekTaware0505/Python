@@ -48,3 +48,6 @@ print(list)
 
 list.reverse()
 print(list)
+
+list.insert(8,22)
+print(list)
