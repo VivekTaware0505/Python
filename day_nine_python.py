@@ -84,7 +84,7 @@ print(fruit)
 
 print("--------------------------------------end line ------------------------------------------------------")
 
-# remove method and popmethod in list slicing
+# remove method and pop method in list slicing
 
 list.remove(5) # it removes the exact value which give bye the user
 list.pop(3)# it removes the element by using index number 
@@ -92,7 +92,7 @@ list.pop(3)# it removes the element by using index number
 print(list)
 
 print("--------------------------------------end line ------------------------------------------------------")
-# remove method and popmethod in list slicing
+# remove method and pop method in list slicing
 
 fruit.remove("banana")
 fruit.pop(2)
