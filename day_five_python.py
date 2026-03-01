@@ -2,7 +2,7 @@ str ='vivek'
 str1 = "hallo vivek ? "
 str2 = """ hallo vivek how are you and hows going your python learning """
 
-print("--------------------------------------------------------------------")
+print("-------------------------------------- vivek learning pyhton -----------------------------------------------------------")
 
 # type casting examples 
 
@@ -17,8 +17,7 @@ num4 = int (11)
 print(num3 + num4 , "addition two numbers ")
 
 
-print("--------------------------------------------------------------------")
-
+print("-------------------------------------- vivek learning pyhton -----------------------------------------------------------")
 
 # index number \ printing characters using ndex number as we want 
 
@@ -29,8 +28,7 @@ print(name[2:])
 print(name[:6])
 print(name[1:9])
 
-print("--------------------------------------------------------------------")
-
+print("-------------------------------------- vivek learning pyhton -----------------------------------------------------------")
 # break a string into next line and add tab space in a string 
 
 newstr1 = "hallo wolrd \nmy is vivek taware"
@@ -38,6 +36,8 @@ newstr2 = "hallo wolrd \n my is vivek taware"
 len1 = len(newstr1)
 print(len1)
 
+
+print("-------------------------------------- vivek learning pyhton -----------------------------------------------------------")
 
 
 onestr="hallo wolrd "
@@ -49,3 +49,6 @@ print(newstr1)
 print(newstr2)
 print(final_str)
 print(final_len)
+
+
+print("-------------------------------------- vivek learning pyhton -----------------------------------------------------------")

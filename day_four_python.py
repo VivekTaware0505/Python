@@ -11,6 +11,9 @@ c = str(c)
 
 print (type(c))
 
+
+print("-------------------------------------- vivek learning pyhton -----------------------------------------------------------")
+
 #input in pyhton from user
 
 input("enter your name")
@@ -20,8 +23,13 @@ marks = float(input("enter your marks"))
 
 print ("welcome vivek",name)
 print("your marks is :",marks)
+
+print("-------------------------------------- vivek learning pyhton -----------------------------------------------------------")
+
 print(type(marks),marks)
 
 print(type(name), name)
 
 
+
+print("-------------------------------------- vivek learning pyhton -----------------------------------------------------------")

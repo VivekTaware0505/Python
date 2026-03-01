@@ -7,6 +7,9 @@ print("anwser :", num1+num2)
 
 
 
+print("-------------------------------------- vivek learning pyhton -----------------------------------------------------------")
+
+
 
 # WAP(write a program) to input side of a square & print its area
 
@@ -16,12 +19,21 @@ print("area of square :" , side * side)
 print(" second method of square getting :", side **2)
 
 
+print("-------------------------------------- vivek learning pyhton -----------------------------------------------------------")
+
+
+
+
 #WAP to input floating point numbers & print their average
 
 a = float(input("enter first value :"))
 b = float(input("enter second value :"))
 
 print("average is = ", (a+b) /2)
+
+
+
+print("-------------------------------------- vivek learning pyhton -----------------------------------------------------------")
 
 
 # write a program to input 2 int numbers, a and b print true if a is greater than or equal to b. if not print false
@@ -34,3 +46,7 @@ if (num1>=num2):
     print("true")
 else:
     print("false")
+
+
+
+print("-------------------------------------- vivek learning pyhton -----------------------------------------------------------")

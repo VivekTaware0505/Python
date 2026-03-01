@@ -7,6 +7,9 @@ print(5550505)
 print(35+35)
 print(10-20)
 print(60*10)
+   
+
+print("-------------------------------------- vivek learning pyhton -----------------------------------------------------------")
 
 name ="vivek"
 age = 23
@@ -19,7 +22,7 @@ print("my name is :",name)
 print("my age is :",age)
 print(age2)
 
-
+print("-------------------------------------- vivek learning pyhton -----------------------------------------------------------")
 
 print(type(name))
 print(type(age))

@@ -7,7 +7,10 @@ if(age>=18):
 else:
     print("you are not eligible for vote")
 
-    # traffic light example for if and elif
+
+    print("-------------------------------------- vivek learning pyhton -----------------------------------------------------------")
+
+# traffic light example for if and elif
 
 light = input("enter light colour : ")
 
@@ -21,8 +24,9 @@ else:
     print("light is broken")
 
 
-    # finding grade using contional statements
+ # finding grade using contional statements
 
+print("-------------------------------------- vivek learning pyhton -----------------------------------------------------------")
 
 grade = int(input("enter your marks get grades : "))
 
@@ -52,6 +56,8 @@ else:
 print("students grade -> : ", g)
 
 
+print("-------------------------------------- vivek learning pyhton -----------------------------------------------------------")
+
 # nested if statements using nested if finding the candidate was able to lead election or not
 
 election_age = int(input("enter your agr to know : "))
@@ -63,3 +69,6 @@ if(election_age >= 21):
         print("you can lead elections")
 else:
     print("you not fill form")
+
+
+    print("-------------------------------------- vivek learning pyhton -----------------------------------------------------------")

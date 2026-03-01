@@ -8,6 +8,8 @@ print(str.count("india"))
 
 
 
+print("-------------------------------------- vivek learning pyhton -----------------------------------------------------------")
+
 #practice questions 
 #write a program to input users first name and print its length
 
@@ -20,7 +22,13 @@ print(name)
 print("length of your name ",len(name))
 
 
+print("-------------------------------------- vivek learning pyhton -----------------------------------------------------------")
+
+
 #write a program to find the occurance of $ in a string
 
 newstr = "the american doller $ is this and we pay 700$ to some $$$  "
 print(newstr.count("$"))
+
+
+print("-------------------------------------- vivek learning pyhton -----------------------------------------------------------")
