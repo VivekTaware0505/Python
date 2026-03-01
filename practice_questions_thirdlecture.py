@@ -20,5 +20,10 @@ print("-------------------------------------- vivek learning pyhton ------------
 
 grade_tup =("C","D","A","A","B","B","A")  
 
-grade_tup.count("A")
-print(grade_tup)
+print(grade_tup.count("A"))
+
+
+print("-------------------------------------- vivek learning pyhton -----------------------------------------------------------")
+
+
+#
