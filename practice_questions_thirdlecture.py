@@ -50,3 +50,13 @@ print("-------------------------------------- vivek learning pyhton ------------
 # write a peogram to check if a list contains a palindrome of element (hint : use cop() method)
 # [1,2,3,2,1]   [1, "abc" , "abc" , 1]
 
+list1 = [12,2,2]
+
+
+copy_list = list1.copy()
+copy_list.reverse()
+
+if(copy_list == list1):
+    print("is a palindrome ")
+else:
+    print("is not palindrome")
