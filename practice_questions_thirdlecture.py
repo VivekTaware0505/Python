@@ -60,3 +60,11 @@ if(copy_list == list1):
     print("is a palindrome ")
 else:
     print("is not palindrome")
+
+
+    # store the above values in a list and sort them from "A" to "D"
+
+
+grade = ["C","D","A","A","B","B","A"] 
+grade.sort()
+print(grade)
