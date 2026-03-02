@@ -62,7 +62,8 @@ else:
     print("is not palindrome")
 
 
-    # store the above values in a list and sort them from "A" to "D"
+    # store the below values in a list and sort them from "A" to "D"
+    #["C","D","A","A","B","B","A"]
 
 
 grade = ["C","D","A","A","B","B","A"] 
