@@ -49,3 +49,4 @@ print("-------------------------------------- vivek learning pyhton ------------
 
 # write a peogram to check if a list contains a palindrome of element (hint : use cop() method)
 # [1,2,3,2,1]   [1, "abc" , "abc" , 1]
+
