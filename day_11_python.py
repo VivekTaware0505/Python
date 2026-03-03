@@ -12,3 +12,12 @@ print(info)
 info["name"]= "akshay"
 info["surname"]="thorat"
 print(info)
+
+print("-------------------------------------- vivek learning pyhton -----------------------------------------------------------")
+
+info_new = {
+    "names": ["vivek","akshay"],
+    "marks": (60,76)
+}
+info_new["topics"]="learnig","analysis"
+print(info_new)
