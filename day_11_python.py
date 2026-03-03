@@ -8,3 +8,7 @@ info = {
     "marks" : 76
 }
 print(info)
+
+info["name"]= "akshay"
+info["surname"]="thorat"
+print(info)
