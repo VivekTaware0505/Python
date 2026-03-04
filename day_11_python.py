@@ -27,4 +27,14 @@ print(info_new)
 print(type(info_new))
 print(info_new["marks"])
 
+print("-------------------------------------- vivek learning pyhton -----------------------------------------------------------")
+
+
+# empty dictionary creating
+
+empty_dict = {}
+
+print(type(empty_dict))
+empty_dict["where are you going "] = "i am going to canada"
+print(empty_dict)
 
