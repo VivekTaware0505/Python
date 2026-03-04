@@ -38,3 +38,17 @@ print(type(empty_dict))
 empty_dict["where are you going "] = "i am going to canada"
 print(empty_dict)
 
+
+print("-------------------------------------- vivek learning pyhton -----------------------------------------------------------")
+
+# nasted dictionary a dictionary having inside another dictionary
+
+student = {
+    "name" : "vivek taware",
+    "subjects" :{
+        "java" : 99,
+        "pyhton" : 99,
+        "c" : 99
+    }
+}
+print(student)
