@@ -25,5 +25,6 @@ info_new["vehicle name"] = input("enter your vehicle name : ")
 info_new["percentage"] = 60.80,6.80
 print(info_new)
 print(type(info_new))
+print(info_new["marks"])
 
 
