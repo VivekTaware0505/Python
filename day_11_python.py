@@ -52,4 +52,4 @@ student = {
     }
 }
 print(student)
-print(student["subjects"])
+print(student["subjects"]["java"])
