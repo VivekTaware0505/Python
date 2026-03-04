@@ -22,6 +22,8 @@ info_new = {
 info_new["topics"]="learnig","analysis" # this means overrite the that point 
 info_new["locatin"] ="malinagar",5,"ganeshgao",15
 info_new["vehicle name"] = input("enter your vehicle name : ")
+info_new["percentage"] = 60.80,6.80
 print(info_new)
+print(type(info_new))
 
 
