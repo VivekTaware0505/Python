@@ -15,6 +15,9 @@ print("-------------------------------------- vivek learning pyhton ------------
 print(list(info.keys()))
 print(tuple(info.keys()))
 
+
+
 print(len(info)) # print total value of key pairs
 
 print("-------------------------------------- vivek learning pyhton -----------------------------------------------------------")
+print(info.values())
