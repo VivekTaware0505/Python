@@ -20,4 +20,7 @@ print(tuple(info.keys()))
 print(len(info)) # print total value of key pairs
 
 print("-------------------------------------- vivek learning pyhton -----------------------------------------------------------")
-print(info.values())
+
+
+print(info.values()) #values method it returns all value pairs into tuples
+print(info.get("name")) # returns the key according to value
