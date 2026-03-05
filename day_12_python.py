@@ -31,7 +31,16 @@ subject = {
 
     "math":99,
     "java":99,
-    "pyhton":99
+    "pyhton":99,
+    "names":{
+
+        "name 1":"vivek",
+        "name 2" :"akshay",
+        "name 3" : "vaibhav"
+
+    }
 }
 
 print(subject.get("pyhton"))
+
+print(subject["names"])
