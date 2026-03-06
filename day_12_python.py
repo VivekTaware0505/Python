@@ -25,6 +25,10 @@ print("-------------------------------------- vivek learning pyhton ------------
 print(info.values()) #values method it returns all value pairs into tuples
 print(info.get("name")) # returns the key according to value
 
+# when in the get method put the element or that key it doesnt exixts in our program that time the method give us """ none value"""
+#and execute the next line code thats whya that method are used in python 
+
+
 print("-------------------------------------- vivek learning pyhton -----------------------------------------------------------")
 
 subject = {
