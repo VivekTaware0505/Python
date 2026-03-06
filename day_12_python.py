@@ -62,3 +62,18 @@ print(pairs[0])
 print("-------------------------------------- vivek learning pyhton -----------------------------------------------------------")
 
 print(pairs[2])
+
+
+print("-------------------------------------- vivek learning pyhton -----------------------------------------------------------")
+
+
+new_dict = {"name5":"hallo"}
+subject.update(new_dict)
+print(subject)
+
+print("-------------------------------------- vivek learning pyhton -----------------------------------------------------------")
+
+
+subject.update({"name4": " shraddha"})
+print(subject)
+
