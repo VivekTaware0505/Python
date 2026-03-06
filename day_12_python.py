@@ -44,4 +44,13 @@ subject = {
 print(subject.get("pyhton"))
 
 print(subject["names"])
+
+print("-------------------------------------- vivek learning pyhton -----------------------------------------------------------")
+
+
 print(list(subject.values()))
+print("-------------------------------------- vivek learning pyhton -----------------------------------------------------------")
+
+print(subject.items())
+
+print(list(subject.items()))
