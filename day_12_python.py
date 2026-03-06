@@ -44,3 +44,4 @@ subject = {
 print(subject.get("pyhton"))
 
 print(subject["names"])
+print(list(subject.values()))
