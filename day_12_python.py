@@ -53,4 +53,8 @@ print("-------------------------------------- vivek learning pyhton ------------
 
 print(subject.items())
 
-print(list(subject.items()))
+pairs = list(subject.items())
+print(pairs[0])
+print("-------------------------------------- vivek learning pyhton -----------------------------------------------------------")
+
+print(pairs[2])
