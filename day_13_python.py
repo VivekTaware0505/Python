@@ -31,4 +31,30 @@ print(collection3)
 
 collection3.remove(556)
 collection3.add((1,2,3,4))
+
 print(collection3)
+print("-------------------------------------- vivek learning pyhton after clear method-----------------------------------------------------------")
+
+
+collection3.clear()
+print(len(collection3))
+print(collection3)
+
+print("-------------------------------------- vivek learning pyhton pop method -----------------------------------------------------------")
+
+
+# pop method 
+
+new_cl ={ "vivek ", "taware" , "malinagar" , "hallo",1,2,3,}
+
+print(new_cl)
+
+print("-------------------------------------- vivek learning pyhton pop method -----------------------------------------------------------")
+
+
+print(new_cl.pop())  # he shows in the output what he romoves from set
+
+print("-------------------------------------- vivek learning pyhton pop method -----------------------------------------------------------")
+
+
+print(new_cl.pop())
