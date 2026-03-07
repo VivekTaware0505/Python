@@ -58,3 +58,21 @@ print("-------------------------------------- vivek learning pyhton pop method -
 
 
 print(new_cl.pop())
+
+print("-------------------------------------- vivek learning pyhton union and intersection method ----------------------------------------------------")
+
+
+# union mwthod and intesection method in set 
+
+print("-------------------------------------- vivek learning pyhton union method -----------------------------------------------------------")
+
+set1 = {1,2,3,4,}
+set2 = {1,3,4,5,6,7}
+
+print(set1.union(set2)) # this method works only once # it combines the two sets
+
+print("-------------------------------------- vivek learning pyhton intersection method -----------------------------------------------------------")
+
+print(set2.intersection(set1)) # he prints only common elements from the two sets
+
+
