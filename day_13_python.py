@@ -30,4 +30,5 @@ collection3.add(556)
 print(collection3)
 
 collection3.remove(556)
+collection3.add((1,2,3,4))
 print(collection3)
