@@ -10,7 +10,7 @@ else:
     print("number is ODD ")
 
 
-print(print("-------------------------------------- vivek learning pyhton -----------------------------------------------------------"))
+print(print("-------------------------------------- vivek learning python  -----------------------------------------------------------"))
 
 
 # write a program to find the greatest of 3 numbers entered bye the user
@@ -27,7 +27,7 @@ else:
   print("third number is largest : ", c)
 
 
-print("-------------------------------------- vivek learning pyhton -----------------------------------------------------------")
+print("-------------------------------------- vivek learning python  -----------------------------------------------------------")
 # write a program to find the grestest of 4 number enetered by the user
 
 x = int( input("enter first number : "))
@@ -45,7 +45,7 @@ else:
     print("fourth number is lagest : " , d)
 
     
-print("-------------------------------------- vivek learning pyhton -----------------------------------------------------------")
+print("-------------------------------------- vivek learning python  -----------------------------------------------------------")
 # write a program if a number is multiple of 7 or not 
 
 num = int(input("enter number to check"))
@@ -57,7 +57,7 @@ else:
 
 
 
-print("-------------------------------------- vivek learning pyhton -----------------------------------------------------------")
+print("-------------------------------------- vivek learning python  -----------------------------------------------------------")
 
 # or not multiple bye 5 
 
@@ -69,4 +69,4 @@ else:
     print(num2 , "is not multiple by 5 ")
 
 
-print("-------------------------------------- vivek learning pyhton -----------------------------------------------------------")
+print("-------------------------------------- vivek learning python  -----------------------------------------------------------")

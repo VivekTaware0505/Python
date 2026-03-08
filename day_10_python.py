@@ -4,7 +4,7 @@ print(type(tup))
 print(tup[0])
 print(tup[2])
 
-print("-------------------------------------- vivek learning pyhton -----------------------------------------------------------")
+print("-------------------------------------- vivek learning python  -----------------------------------------------------------")
 
 # single value tupel how to create or empty tuple 
 

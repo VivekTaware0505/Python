@@ -7,7 +7,7 @@ print(collection)
 print(type(collection))
 
 
-print("-------------------------------------- vivek learning pyhton -----------------------------------------------------------")
+print("-------------------------------------- vivek learning python  -----------------------------------------------------------")
 
 
 collection1 = {"hallo", 1 , 2,2,2,"world","world"}
@@ -17,7 +17,7 @@ print(len(collection1))
 
 
 
-print("-------------------------------------- vivek learning pyhton -----------------------------------------------------------")
+print("-------------------------------------- vivek learning python  -----------------------------------------------------------")
 
 
 
@@ -33,14 +33,14 @@ collection3.remove(556)
 collection3.add((1,2,3,4))
 
 print(collection3)
-print("-------------------------------------- vivek learning pyhton after clear method-----------------------------------------------------------")
+print("-------------------------------------- vivek learning python  after clear method-----------------------------------------------------------")
 
 
 collection3.clear()
 print(len(collection3))
 print(collection3)
 
-print("-------------------------------------- vivek learning pyhton pop method -----------------------------------------------------------")
+print("-------------------------------------- vivek learning python  pop method -----------------------------------------------------------")
 
 
 # pop method 
@@ -49,29 +49,29 @@ new_cl ={ "vivek ", "taware" , "malinagar" , "hallo",1,2,3,}
 
 print(new_cl)
 
-print("-------------------------------------- vivek learning pyhton pop method -----------------------------------------------------------")
+print("-------------------------------------- vivek learning python  pop method -----------------------------------------------------------")
 
 
 print(new_cl.pop())  # he shows in the output what he romoves from set
 
-print("-------------------------------------- vivek learning pyhton pop method -----------------------------------------------------------")
+print("-------------------------------------- vivek learning python  pop method -----------------------------------------------------------")
 
 
 print(new_cl.pop())
 
-print("-------------------------------------- vivek learning pyhton union and intersection method ----------------------------------------------------")
+print("-------------------------------------- vivek learning python  union and intersection method ----------------------------------------------------")
 
 
 # union mwthod and intesection method in set 
 
-print("-------------------------------------- vivek learning pyhton union method -----------------------------------------------------------")
+print("-------------------------------------- vivek learning python  union method -----------------------------------------------------------")
 
 set1 = {1,2,3,4,}
 set2 = {1,3,4,5,6,7}
 
 print(set1.union(set2)) # this method works only once # it combines the two sets
 
-print("-------------------------------------- vivek learning pyhton intersection method -----------------------------------------------------------")
+print("-------------------------------------- vivek learning python  intersection method -----------------------------------------------------------")
 
 print(set2.intersection(set1)) # he prints only common elements from the two sets
 

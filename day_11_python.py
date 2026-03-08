@@ -1,6 +1,6 @@
 # dictionary in python 
 
-print("-------------------------------------- vivek learning pyhton -----------------------------------------------------------")
+print("-------------------------------------- vivek learning python  -----------------------------------------------------------")
 
 info = {
     "name" :"vivek",
@@ -39,7 +39,7 @@ empty_dict["where are you going "] = "i am going to canada"
 print(empty_dict)
 
 
-print("-------------------------------------- vivek learning pyhton -----------------------------------------------------------")
+print("-------------------------------------- vivek learning python  -----------------------------------------------------------")
 
 # nasted dictionary a dictionary having inside another dictionary
 

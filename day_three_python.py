@@ -20,7 +20,7 @@ print("num:",vivek2)
 print("num:",vivek3)
 print("num:",vivek4)
 
-print("-------------------------------------- vivek learning pyhton -----------------------------------------------------------")
+print("-------------------------------------- vivek learning python  -----------------------------------------------------------")
 
 
 # logical Operator in pyhton day three 19/12/2025
@@ -40,4 +40,4 @@ print ("and operator : ", val1 and val2)
 print("or operator : " , ( num1 == num2)or (num1 > num2) )
 
 
-print("-------------------------------------- vivek learning pyhton -----------------------------------------------------------")
+print("-------------------------------------- vivek learning python  -----------------------------------------------------------")

@@ -8,7 +8,7 @@ info = {
 print(info.keys())
 
 
-print("-------------------------------------- vivek learning pyhton -----------------------------------------------------------")
+print("-------------------------------------- vivek learning python  -----------------------------------------------------------")
 
 # type casting in dictionary we can change dictionary into list and tuple
 
@@ -19,7 +19,7 @@ print(tuple(info.keys()))
 
 print(len(info)) # print total value of key pairs
 
-print("-------------------------------------- vivek learning pyhton -----------------------------------------------------------")
+print("-------------------------------------- vivek learning python  -----------------------------------------------------------")
 
 
 print(info.values()) #values method it returns all value pairs into tuples
@@ -29,7 +29,7 @@ print(info.get("name")) # returns the key according to value
 #and execute the next line code thats whya that method are used in python 
 
 
-print("-------------------------------------- vivek learning pyhton -----------------------------------------------------------")
+print("-------------------------------------- vivek learning python  -----------------------------------------------------------")
 
 subject = {
 
@@ -49,22 +49,22 @@ print(subject.get("pyhton"))
 
 print(subject["names"])
 
-print("-------------------------------------- vivek learning pyhton -----------------------------------------------------------")
+print("-------------------------------------- vivek learning python  -----------------------------------------------------------")
 
 
 print(list(subject.values()))
-print("-------------------------------------- vivek learning pyhton -----------------------------------------------------------")
+print("-------------------------------------- vivek learning python  -----------------------------------------------------------")
 
 print(subject.items())
 
 pairs = list(subject.items())
 print(pairs[0])
-print("-------------------------------------- vivek learning pyhton -----------------------------------------------------------")
+print("-------------------------------------- vivek learning python  -----------------------------------------------------------")
 
 print(pairs[2])
 
 
-print("-------------------------------------- vivek learning pyhton -----------------------------------------------------------")
+print("-------------------------------------- vivek learning python  -----------------------------------------------------------")
 
 
 new_dict = {"name5":"hallo"}

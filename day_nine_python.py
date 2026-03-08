@@ -30,7 +30,7 @@ print(new_marks[-4:-1]) # this is the reverse string so access it bye reverse wa
 print(new_marks[-5])
 
 
-print("-------------------------------------- vivek learning pyhton -----------------------------------------------------------")
+print("-------------------------------------- vivek learning python  -----------------------------------------------------------")
 # list methods 
 
 #append and sort method
@@ -40,27 +40,27 @@ list = [4,5,3,1,2,6,1]
 print(list)
 list.append(9)
 
-print("-------------------------------------- vivek learning pyhton -----------------------------------------------------------")
+print("-------------------------------------- vivek learning python  -----------------------------------------------------------")
 print(list)
 print(list.sort()) # returnt none value to see the value we print it and after print this on 
                       # next time he prints ascending orde of list
 print(list)
 
-print("-------------------------------------- vivek learning pyhton -----------------------------------------------------------")
+print("-------------------------------------- vivek learning python  -----------------------------------------------------------")
 # revese sort in list method
 
 list.sort(reverse=True) # true function in python is always define with first letter is capital like "True "
 print(list)
 
-print("-------------------------------------- vivek learning pyhton -----------------------------------------------------------")
+print("-------------------------------------- vivek learning python  -----------------------------------------------------------")
 list.reverse()
 print(list)
 
-print("-------------------------------------- vivek learning pyhton -----------------------------------------------------------")
+print("-------------------------------------- vivek learning python  -----------------------------------------------------------")
 list.insert(8,22)
 print(list)
 
-print(print("-------------------------------------- vivek learning pyhton -----------------------------------------------------------"))
+print(print("-------------------------------------- vivek learning python  -----------------------------------------------------------"))
 # string sorting in list slicing
 
 fruit = ["banana","orange","apple"]
@@ -71,12 +71,12 @@ fruit.sort()
 
 print(fruit) # after sorting
 
-print("-------------------------------------- vivek learning pyhton -----------------------------------------------------------")
+print("-------------------------------------- vivek learning python  -----------------------------------------------------------")
 fruit.insert(2,"grapes") # insert new element 
 print(fruit)
 
 
-print("-------------------------------------- vivek learning pyhton -----------------------------------------------------------")
+print("-------------------------------------- vivek learning python  -----------------------------------------------------------")
 # remove method and pop method in list slicing
 
 list.remove(5) # it removes the exact value which give bye the user
@@ -84,7 +84,7 @@ list.pop(3)# it removes the element by using index number
 
 print(list)
 
-print("-------------------------------------- vivek learning pyhton -----------------------------------------------------------")# remove method and pop method in list slicing
+print("-------------------------------------- vivek learning python  -----------------------------------------------------------")# remove method and pop method in list slicing
 
 fruit.remove("banana")
 fruit.pop(2)
@@ -93,4 +93,4 @@ print(fruit)
 
 
 
-print("-------------------------------------- vivek learning pyhton -----------------------------------------------------------")
+print("-------------------------------------- vivek learning python  -----------------------------------------------------------")

@@ -12,7 +12,7 @@ M_list2.append(input("enter movie names : "))
 M_list2.append(input("enter movie names : "))
 M_list2.append(input("enter movie names : "))
 print(M_list2)
-print("-------------------------------------- vivek learning pyhton -----------------------------------------------------------")
+print("-------------------------------------- vivek learning python  -----------------------------------------------------------")
 
 
 M_list = []
@@ -25,7 +25,7 @@ M_list.append(movie_name2)
 M_list.append(movie_name3)
 print(M_list)
  
-print("-------------------------------------- vivek learning pyhton -----------------------------------------------------------")
+print("-------------------------------------- vivek learning python  -----------------------------------------------------------")
 
 
 M_list1.insert(0,movie_name1)
@@ -34,7 +34,7 @@ M_list1.insert(2,movie_name3)
 print(M_list1)
 
 
-print("-------------------------------------- vivek learning pyhton -----------------------------------------------------------")
+print("-------------------------------------- vivek learning python  -----------------------------------------------------------")
 
 
 # write a program to to count the number of students with the A grade in the following tuple
@@ -44,7 +44,7 @@ grade_tup =("C","D","A","A","B","B","A")
 print(grade_tup.count("A"))
 
 
-print("-------------------------------------- vivek learning pyhton -----------------------------------------------------------")
+print("-------------------------------------- vivek learning python  -----------------------------------------------------------")
 
 
 # write a peogram to check if a list contains a palindrome of element (hint : use cop() method)

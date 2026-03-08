@@ -8,7 +8,7 @@ else:
     print("you are not eligible for vote")
 
 
-    print("-------------------------------------- vivek learning pyhton -----------------------------------------------------------")
+    print("-------------------------------------- vivek learning python  -----------------------------------------------------------")
 
 # traffic light example for if and elif
 
@@ -26,7 +26,7 @@ else:
 
  # finding grade using contional statements
 
-print("-------------------------------------- vivek learning pyhton -----------------------------------------------------------")
+print("-------------------------------------- vivek learning python  -----------------------------------------------------------")
 
 grade = int(input("enter your marks get grades : "))
 
@@ -56,7 +56,7 @@ else:
 print("students grade -> : ", g)
 
 
-print("-------------------------------------- vivek learning pyhton -----------------------------------------------------------")
+print("-------------------------------------- vivek learning python  -----------------------------------------------------------")
 
 # nested if statements using nested if finding the candidate was able to lead election or not
 
@@ -71,4 +71,4 @@ else:
     print("you not fill form")
 
 
-    print("-------------------------------------- vivek learning pyhton -----------------------------------------------------------")
+    print("-------------------------------------- vivek learning python  -----------------------------------------------------------")
