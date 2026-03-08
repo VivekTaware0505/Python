@@ -29,3 +29,24 @@ print(len(subject))
 print("-------------------------------------- vivek learning python -----------------------------------------------------------")
 
 print(count)
+
+
+
+print("-------------------------------------- vivek learning python -----------------------------------------------------------")
+
+
+# write a program to enter marks of 3 subjects from the user
+# and store them in a dictionary 
+# start with empty dictionary & add one by one
+# use subject name as key & marks as value
+
+
+sub1 = int(input("enter marks of math : "))
+sub2 = int(input("enter marks of science : "))
+sub3 = int(input("enter marks of english : "))
+
+dict = {}
+dict.update({"math " : sub1})
+dict.update({"science " : sub2})
+dict.update({"english":sub3})
+print(dict)
