@@ -50,3 +50,31 @@ dict.update({"math " : sub1})
 dict.update({"science " : sub2})
 dict.update({"english":sub3})
 print(dict)
+
+
+
+
+print("-------------------------------------- vivek learning python -----------------------------------------------------------")
+print("-------------------------------------- vivek learning python -----------------------------------------------------------")
+
+
+# figure out a way to store 9 and 9.0 as separate values in the set 
+# you can take the help of the built in data types 
+
+
+values ={ 9,9.0} # this operation in the python as considered as the values are same so he prints only 9
+ 
+ # method no 1 to solve that problem 
+
+value = { 9 , "9.0"}
+print(value)
+
+# method no 2
+
+set_value = {
+     
+    ("int",9),
+    ("float",9.0)
+
+}
+print(set_value)
