@@ -13,3 +13,11 @@ v = 100
 while v >= 1:
     print(v)
     v-=1
+
+
+n = 6
+s = 1
+while s<=10 :
+    print(n*s ,"table of six")
+    s += 1
+
