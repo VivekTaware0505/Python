@@ -15,3 +15,10 @@ i = 1
 while i <= 10:
     print(i,"hallo")
     i+=1
+
+
+v = 10
+
+while v >= 1:
+    print(v)
+    v-=1
