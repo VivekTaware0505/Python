@@ -39,3 +39,16 @@ while idx < len(nums) :
     print(nums[idx])   # idx is printing the index number wise list elements 
     idx +=1 
 
+print("-------------------------------------- vivek learning python  -----------------------------------------------------------")
+
+
+# search for a number X in this tuple using loop
+# (1,4,9,16,25,36,49,64,81,100)
+
+tup = (1,4,9,16,25,36,49,64,81,100)
+
+xy = 1
+
+while xy < len(xy):
+    print(tup[xy])
+    xy += 1
