@@ -15,9 +15,9 @@ while v >= 1:
     v-=1
 
 
-n = 6
+n = int(input("enter number : "))
 s = 1
 while s<=10 :
-    print(n*s ,"table of six")
+    print(n*s)
     s += 1
 
