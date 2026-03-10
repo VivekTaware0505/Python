@@ -46,9 +46,11 @@ print("-------------------------------------- vivek learning python  -----------
 # (1,4,9,16,25,36,49,64,81,100)
 
 tup = (1,4,9,16,25,36,49,64,81,100)
+x = 36
+xy = 0
 
-xy = 1
-
-while xy < len(xy):
-    print(tup[xy])
+while xy < len(tup):
+    if(tup[xy] ==  x ):
+        print("FOUND ",tup[xy])
+   
     xy += 1
