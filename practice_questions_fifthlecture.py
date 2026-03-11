@@ -88,6 +88,20 @@ c = 0
 while c <= 5:
     if(c == 3):
         c +=1
-        continue
+        continue # skip the condition 
     print(c)
     c += 1
+
+
+# printing odd numbers using continue keyword
+
+
+odd = 0
+
+while odd <= 10 :
+    if ( odd %2 == 0):
+        odd += 1
+        continue
+    print(odd,"tthis is the odd number")
+
+    odd += 1
