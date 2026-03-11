@@ -62,7 +62,7 @@ print("-------------------------------------- vivek learning python  -----------
 
 
 
-# break key word in while loop 
+# break key word in while loop __________________**********________________
 
 
 b = 0
@@ -74,3 +74,20 @@ while b <= 5:
     b += 1
 
 print (" end of loop ...")
+
+
+print("-------------------------------------- vivek learning python  -----------------------------------------------------------")
+
+
+
+# Continue keyword in while loop
+
+
+c = 0
+
+while c <= 5:
+    if(c == 3):
+        c +=1
+        continue
+    print(c)
+    c += 1
