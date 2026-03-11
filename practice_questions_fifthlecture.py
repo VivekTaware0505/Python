@@ -52,7 +52,25 @@ xy = 0
 while xy < len(tup):
     if(tup[xy] ==  x ):
         print("FOUND ",tup[xy])
+        break     # that keyword breaks statement after getting thst point
     else :
         print("finding ....")
    
     xy += 1
+
+print("-------------------------------------- vivek learning python  -----------------------------------------------------------")
+
+
+
+# break key word in while loop 
+
+
+b = 0
+
+while b <= 5:
+    print(b)
+    if(b == 3):
+        break     # break keyword is break the whole statement after get that point 
+    b += 1
+
+print (" end of loop ...")
