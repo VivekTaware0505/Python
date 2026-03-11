@@ -45,12 +45,14 @@ print("-------------------------------------- vivek learning python  -----------
 # search for a number X in this tuple using loop
 # (1,4,9,16,25,36,49,64,81,100)
 
-tup = (1,4,9,16,25,36,49,64,81,100)
+tup = (1,4,9,16,25,36,49,64,81,100,36)
 x = 36
 xy = 0
 
 while xy < len(tup):
     if(tup[xy] ==  x ):
         print("FOUND ",tup[xy])
+    else :
+        print("finding ....")
    
     xy += 1
