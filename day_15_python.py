@@ -41,3 +41,11 @@ while odd <= 10 :
     print(odd,"tthis is the odd number")
 
     odd += 1
+
+
+    # for loop 
+
+    list = [1,2,3,5,6,4,55,4,8]
+
+    for val in list :
+        print(val)
