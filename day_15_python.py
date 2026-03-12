@@ -53,6 +53,15 @@ while odd <= 10 :
             print(val)
     else:
             print("loop end")
+
+tup = ( 1,2,3,6,15641,512)
+
+for num in tup:
+    if ( num %2==0):
+        num += 1
+        print("this is the odd number -> : " ,num)
+    else:
+        print("end loop ")
      
 
 
