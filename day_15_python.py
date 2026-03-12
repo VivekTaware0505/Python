@@ -48,4 +48,13 @@ while odd <= 10 :
     list = [1,2,3,5,6,4,55,4,8]
 
     for val in list :
-        print(val)
+
+        if(val == 4):
+            print(val)
+    else:
+            print("loop end")
+     
+
+
+
+    
