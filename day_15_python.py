@@ -43,6 +43,10 @@ while odd <= 10 :
     odd += 1
 
 
+    print("-------------------------------------- vivek learning python  -----------------------------------------------------------")
+
+
+
     # for loop 
 
     list = [1,2,3,5,6,4,55,4,8]
@@ -62,6 +66,16 @@ for num in tup:
         print("this is the odd number -> : " ,num)
     else:
         print("end loop ")
+
+
+# accessing string elements from list using for loop
+
+veg =["tomato","ladyfingers","orange ","mango"]
+
+for fruit in veg :
+    print(fruit)
+else:
+    print("we print vegetables and fruits ")
      
 
 
