@@ -94,7 +94,12 @@ print("-------------------------------------- vivek learning python  -----------
 str = "vivek taware"
 
 for char in str:
+    if(char == "t"):
+        print("we fount -> : ",char)
+        break
     print(char)
+else:
+    print("loop is END")
 
 
 
