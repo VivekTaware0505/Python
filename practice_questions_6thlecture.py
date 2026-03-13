@@ -1,12 +1,17 @@
   # print the elements of the following list using a loop
 
-# list =[1,4,9,16,25,36,49,64,81,100]
+list =[1,4,9,16,25,36,49,64,81,100]
  
 
-# for element in list:
-#     print(element)
-# else:
-#     print("END")
+for element in list:
+    print(element)
+else:
+    print("END")
+
+
+ 
+ 
+print("-------------------------------------- vivek learning python  -----------------------------------------------------------")
 
 
 # search for a number x in this tuple using loop
@@ -23,3 +28,5 @@ for num in tup:
     idx += 1
       
     
+
+print("-------------------------------------- vivek learning python  -----------------------------------------------------------")
