@@ -58,6 +58,11 @@ while odd <= 10 :
     else:
             print("loop end")
 
+print("-------------------------------------- vivek learning python  -----------------------------------------------------------")
+
+
+            
+
 tup = ( 1,2,3,6,15641,512)
 
 for num in tup:
@@ -66,6 +71,9 @@ for num in tup:
         print("this is the odd number -> : " ,num)
     else:
         print("end loop ")
+
+
+print("-------------------------------------- vivek learning python  -----------------------------------------------------------")
 
 
 # accessing string elements from list using for loop
@@ -77,6 +85,16 @@ for fruit in veg :
 else:
     print("we print vegetables and fruits ")
      
+
+print("-------------------------------------- vivek learning python  -----------------------------------------------------------")
+
+
+
+# individual character print using for lopp
+str = "vivek taware"
+
+for char in str:
+    print(char)
 
 
 
