@@ -38,11 +38,16 @@ for c in range(3,10,2):  # (start, stop , step) starting and stop and step is po
 print("-------------------------------------- vivek learning python  -----------------------------------------------------------")
 
 
-# even number using range in pyhton 
+# even number using range in python 
 
 for e in range(2,100,2):
     print(e,"is even")
 
 
-# 
+print("-------------------------------------- vivek learning python  -----------------------------------------------------------")
+
+# odd numbers using range in python
+
+for o in range (1 , 100,2):
+    print(o,"is odd")
 
