@@ -31,3 +31,32 @@ for num in tup:
 
 print("-------------------------------------- vivek learning python  -----------------------------------------------------------")
 
+
+# using for & range print numbers 1 to 100 
+
+
+for w in range(1,101):
+    print(w)
+
+
+
+print("-------------------------------------- vivek learning python  -----------------------------------------------------------")
+
+# print numbers from 100 to 1
+
+for r in range(100, 1,-1):
+    print(r)
+  
+
+    
+
+print("-------------------------------------- vivek learning python  -----------------------------------------------------------")
+
+
+# print multiplication table of number n
+
+
+n = 8
+
+for g in range(1,10):
+    print(g*n)
