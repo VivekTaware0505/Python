@@ -30,6 +30,19 @@ for b in range(2,10): # (start , stop ) point has marked
 print("-------------------------------------- vivek learning python  (start , stop . step )-----------------------------------------------------------")
 
 
-for c in range(3,10,1):  # (start, stop , step) starting and stop and step is pointed step is pointed for increasing count 
+for c in range(3,10,2):  # (start, stop , step) starting and stop and step is pointed step is pointed for increasing count 
     print(c)
+
+
+
+print("-------------------------------------- vivek learning python  -----------------------------------------------------------")
+
+
+# even number using range in pyhton 
+
+for e in range(2,100,2):
+    print(e,"is even")
+
+
+# 
 
