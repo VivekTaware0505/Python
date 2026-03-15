@@ -85,7 +85,7 @@ print("sum of -> : ",sum)
 print("-------------------------------------- vivek learning python  -----------------------------------------------------------")
 
 
-# qrite a program to find the factorial of first n numbers (using for )
+# write a program to find the factorial of first n numbers (using for )
 
 f = 5  # enter factorial value here
 
