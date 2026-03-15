@@ -51,3 +51,16 @@ print("-------------------------------------- vivek learning python  -----------
 for o in range (1 , 100,2):
     print(o,"is odd")
 
+
+
+print("-------------------------------------- vivek learning python  -----------------------------------------------------------")
+
+
+# pass statement 
+
+
+for p in range(10):
+    pass
+
+
+print("we pass the above statement")

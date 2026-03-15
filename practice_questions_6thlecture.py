@@ -58,5 +58,5 @@ print("-------------------------------------- vivek learning python  -----------
 
 n = 8
 
-for g in range(1,10):
+for g in range(1,11):
     print(g*n)
