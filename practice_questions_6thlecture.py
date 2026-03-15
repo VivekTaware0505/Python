@@ -60,3 +60,22 @@ n = 8
 
 for g in range(1,11):
     print(g*n)
+
+
+
+print("-------------------------------------- vivek learning python  -----------------------------------------------------------")
+
+
+
+# write a program to find the sum of first n number (using while loop)
+sum = 0
+i = 1
+n = 7
+
+while i <= n:
+
+    sum += i
+    i +=1
+
+print("sum of -> : ",sum)
+    
