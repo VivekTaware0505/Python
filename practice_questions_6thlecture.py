@@ -79,3 +79,18 @@ while i <= n:
 
 print("sum of -> : ",sum)
     
+
+
+
+print("-------------------------------------- vivek learning python  -----------------------------------------------------------")
+
+
+# qrite a program to find the factorial of first n numbers (using for )
+
+f = 5  # enter factorial value here
+
+fact = 1
+
+for h in range(1, f+1):
+    fact *= h
+print("factorial :",fact)
