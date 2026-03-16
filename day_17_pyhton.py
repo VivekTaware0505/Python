@@ -11,4 +11,11 @@ print(sum(55,55))
 print(sum(12,33))
 
 
+# function for multiplication of two numbers 
 
+def multi (c,d):
+    multi = c*d
+    return multi
+
+
+print(multi(5,6))
