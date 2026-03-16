@@ -36,3 +36,13 @@ def hallo ():
     print("hallo vivek")
 
 hallo()
+
+
+# function for calculate average of 3 numbers 
+
+def cal_avg(p,q,r):
+    sum1 = p + q + r
+    avg = sum1 / 3
+    return avg
+
+print(cal_avg(98,95,97))
