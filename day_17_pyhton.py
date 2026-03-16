@@ -19,3 +19,12 @@ def multi (c,d):
 
 
 print(multi(5,6))
+
+
+# another type of function 
+
+
+def divide (h,g):
+    return h/g
+
+print(divide(5,9))
