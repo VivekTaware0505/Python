@@ -28,3 +28,11 @@ def divide (h,g):
     return h/g
 
 print(divide(5,9))
+
+
+# without parameter function 
+
+def hallo ():
+    print("hallo vivek")
+
+hallo()
