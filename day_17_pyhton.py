@@ -53,3 +53,12 @@ print(cal_avg(98,95,97))
 
 
 print("-------------------------------------- vivek learning python  -----------------------------------------------------------")
+
+
+# print function 
+# two types of function built-in function and user define function
+
+# built function 
+
+print(" hallo vivek ", end="we not breaking the line ")  # usually in print function he automatically break the line but in that case we change the function commads
+print("hallo wolrd " , " hallo india " ,sep="🙏") # we also change function and removed gap from two string and add namste symbol
