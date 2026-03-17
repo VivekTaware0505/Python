@@ -52,8 +52,11 @@ def cal_avg(p,q,r):
 print(cal_avg(98,95,97))
 
 
-print("-------------------------------------- vivek learning python  -----------------------------------------------------------")
 
+
+def vivek ():
+    print("-------------------------------------- vivek learning python  -----------------------------------------------------------")
+    return
 
 # print function 
 # two types of function built-in function and user define function
@@ -61,4 +64,11 @@ print("-------------------------------------- vivek learning python  -----------
 # built function 
 
 print(" hallo vivek ", end="we not breaking the line ")  # usually in print function he automatically break the line but in that case we change the function commads
-print("hallo wolrd " , " hallo india " ,sep="🙏") # we also change function and removed gap from two string and add namste symbol
+print("hallo wolrd " , " hallo india " ,sep="🙏"  ) # we also change function and removed gap from two string and add namste symbol
+
+
+vivek()
+
+
+
+
