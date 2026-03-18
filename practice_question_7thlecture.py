@@ -13,3 +13,13 @@ li(hallo)
 
 
 print("-------------------------------------- vivek learning python  -----------------------------------------------------------")
+
+
+def singal (list):
+   for item in list:
+      print(item, end=" ")
+      
+
+
+singal(hallo)
+singal(list1)
