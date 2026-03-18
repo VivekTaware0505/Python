@@ -77,3 +77,13 @@ def multi_new(num1 = 10, num2 = 10):
         return 
 
 multi_new()
+
+
+
+# singal default value
+
+def singal ( new1 , new2 = 10):  # in the singal default value always pass value on the last pearameter
+     print(new1 * new2)
+     return
+
+singal(5)
