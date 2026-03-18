@@ -70,7 +70,10 @@ print("hallo wolrd " , " hallo india " ,sep="🙏"  ) # we also change function 
 vivek()
 
 
+# default parameter
 
+def multi_new(num1 = 10, num2 = 10):
+        print(num1 * num1)
+        return 
 
-
-
+multi_new()
