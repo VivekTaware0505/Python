@@ -15,6 +15,10 @@ li(hallo)
 print("-------------------------------------- vivek learning python  -----------------------------------------------------------")
 
 
+
+# write a function to print the elements of a list in a single line 
+
+
 def singal (list):
    for item in list:
       print(item, end=" ")
@@ -23,3 +27,5 @@ def singal (list):
 
 singal(hallo)
 singal(list1)
+
+
