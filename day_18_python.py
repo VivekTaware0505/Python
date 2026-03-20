@@ -22,3 +22,21 @@ def cal_fact(v):
     return cal_fact(v-1) * v
 
 print(cal_fact(6))
+
+
+
+print("-------------------------------------- vivek learning python  -----------------------------------------------------------")
+
+
+# let's practice 
+
+#  write a recursive function to calculate the sum of first n natural numbers
+
+def sum (a):
+    if (a == 0):
+        return 0
+    return sum(a-1) + a
+
+cal = sum(5)
+print(cal)
+ 
