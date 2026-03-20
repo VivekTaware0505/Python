@@ -71,3 +71,16 @@ converter(110)
 
 print("-------------------------------------- vivek learning python  -----------------------------------------------------------")
 print("-------------------------------------- vivek learning python  -----------------------------------------------------------")
+
+
+# write a fonction to get input from user to know number is odd or even
+
+
+def odd_even (number):
+   number = int(input("enter a  number : "))
+   if(number % 2 ==0):
+      print("number is odd" , number)
+   else:
+      print("number is even")
+
+odd_even(number='')
