@@ -40,9 +40,11 @@ def sum (a):
 cal = sum(5)
 print(cal)
  
+print("-------------------------------------- vivek learning python  -----------------------------------------------------------")
+print("-------------------------------------- vivek learning python  -----------------------------------------------------------")
 
 
-# write a recursive function to print all element i list 
+# write a recursive function to print all element in list 
 # hint : use list & index as a parameter 
 
 def print_list(list , idx=0):
@@ -53,3 +55,20 @@ def print_list(list , idx=0):
 
 fruits=["mango","banana","apple","orange"]
 print_list(fruits)
+
+
+
+print("-------------------------------------- vivek learning python  -----------------------------------------------------------")
+print("-------------------------------------- vivek learning python  -----------------------------------------------------------")
+
+
+
+def fibonacci(n):
+    if n == 0:
+        return 0
+    elif n == 1:
+        return 1
+    else:
+        return fibonacci(n-1) + fibonacci(n-2)
+
+print(fibonacci(10))
