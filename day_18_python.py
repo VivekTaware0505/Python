@@ -40,3 +40,8 @@ def sum (a):
 cal = sum(5)
 print(cal)
  
+
+
+# write a recursive function to print all element i list 
+# hint : use list & index as a parameter 
+
