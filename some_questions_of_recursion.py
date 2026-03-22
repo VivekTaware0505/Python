@@ -8,3 +8,7 @@ def revers_string(s):
     return revers_string(s[1:]) + s[0]
 
 print(revers_string("hallo"))
+print(revers_string("keviv"))
+
+
+
