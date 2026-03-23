@@ -44,12 +44,12 @@ print("-------------------------------------- vivek learning python  -----------
 
 # writing methods in file I/O
 
-w = open("demo.txt","w")
-write = w.write("we are changing the data of existing file ")
+# w = open("demo.txt","w")
+# write = w.write("we are changing the data of existing file ")
 
-print(write)
-print(type(write))
-w.close()
+# print(write)
+# print(type(write))
+# w.close()
 
 
 print("-------------------------------------- vivek learning python  -----------------------------------------------------------")
@@ -59,7 +59,7 @@ print("-------------------------------------- vivek learning python  -----------
 
 # to append data in file 
 
-a = open("demo.txt","w")
+a = open("demo.txt","a")
 append = a.write("we are changing the data of existing file ")
 
 print(append)
