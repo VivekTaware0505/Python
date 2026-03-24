@@ -92,3 +92,13 @@ with open("demo.txt","r") as f:
     newdata = f.read()
     print(newdata)
     f.close()
+
+
+print("-------------------------------------- vivek learning python  -----------------------------------------------------------")
+
+
+
+# overrite with method 
+
+with open("demo.txt","w") as f:
+    f.write("we put is some new data")  
