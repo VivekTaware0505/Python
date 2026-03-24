@@ -65,3 +65,12 @@ append = a.write("we are changing the data of existing file ")
 print(append)
 print(type(append))
 a.close()
+
+
+
+
+# r+ method to overwrite in existing file 
+
+t = open("demo.txt","r+")
+t.write("hallo vivek")
+t.close()
