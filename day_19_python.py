@@ -1,11 +1,11 @@
 # file input/output in python 
 
-f = open("day_two_python.py","r")
-data = f.read()
+g = open("day_two_python.py","r")
+data = g.read()
 
 print(data)
 print(type(data))
-f.close()
+g.close()
 
 
 print("-------------------------------------- vivek learning python  -----------------------------------------------------------")
@@ -27,15 +27,15 @@ print("-------------------------------------- vivek learning python  -----------
 # readline method in file I/O
 
 
-f= open("demo.txt","r")
+h= open("demo.txt","r")
 
-line1 = f.readline()
-line2 = f.readline()
+line1 = h.readline()
+line2 = h.readline()
 
 print(line1)
 print(line2)
 print(type(line1))
-f.close()
+h.close()
 
 
 print("-------------------------------------- vivek learning python  -----------------------------------------------------------")
@@ -68,9 +68,27 @@ a.close()
 
 
 
+print("-------------------------------------- vivek learning python  -----------------------------------------------------------")
+
+
 
 # r+ method to overwrite in existing file 
 
 t = open("demo.txt","r+")
 t.write("hallo vivek")
+print(t.read())
 t.close()
+
+
+
+print("-------------------------------------- vivek learning python  -----------------------------------------------------------") 
+print("-------------------------------------- vivek learning python  -----------------------------------------------------------")
+print("-------------------------------------- vivek learning python  -----------------------------------------------------------")
+
+
+# with syntax in file input output 
+
+with open("demo.txt","r") as f:
+    newdata = f.read()
+    print(newdata)
+    f.close()
