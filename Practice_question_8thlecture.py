@@ -5,5 +5,5 @@
 # i like programming in java
 
 with open("practice.txt","w") as f:
-  data =  f.write("hi everyone \nwe are learning file i/o\nusing java\ni like programming in java")
-print(data)
+   f.write("hi everyone \nwe are learning file i/o")
+   f.write("using java\ni like programming in java")
