@@ -4,6 +4,27 @@
 # using java
 # i like programming in java
 
+
+
+
+
+
+
+
+
+
+print("-------------------------------------- vivek learning python  -----------------------------------------------------------")
+
+
+
+# wrtie a function replace all occurnaceof java with pyhton in above file
+
+with open("practice.txt","r") as f:
+   data = f.read()
+
+new_data = data.replace("java","python")
+print(new_data)
+
+
 with open("practice.txt","w") as f:
-   f.write("hi everyone \nwe are learning file i/o")
-   f.write("using java\ni like programming in java")
+   f.write(new_data)
