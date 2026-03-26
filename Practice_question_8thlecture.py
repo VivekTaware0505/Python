@@ -28,3 +28,22 @@ print(new_data)
 
 with open("practice.txt","w") as f:
    f.write(new_data)
+
+
+
+
+print("-------------------------------------- vivek learning python  -----------------------------------------------------------")
+print("-------------------------------------- vivek learning python  -----------------------------------------------------------")
+print("-------------------------------------- vivek learning python  -----------------------------------------------------------")
+
+
+# search if the word "learning" exists in the file or not
+
+word = " learning "
+
+with open("practice.txt","r") as v:
+   vdata = v.read()
+   if(vdata.find(word) != +1):
+      print("FOUND")
+   else:
+      print("NOT FOUND")
