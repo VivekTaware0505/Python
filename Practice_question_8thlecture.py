@@ -39,11 +39,15 @@ print("-------------------------------------- vivek learning python  -----------
 
 # search if the word "learning" exists in the file or not
 
-word = " learning "
+def check_word ():
+   word = " learning "
 
-with open("practice.txt","r") as v:
-   vdata = v.read()
-   if(vdata.find(word) != +1):
-      print("FOUND")
-   else:
-      print("NOT FOUND")
+   with open("practice.txt","r") as v:
+      vdata = v.read()
+      if(vdata.find(word) != +1):
+         print("FOUND")
+      else:
+         print("NOT FOUND")
+
+
+check_word()
