@@ -51,3 +51,24 @@ def check_word ():
 
 
 check_word()
+
+
+print("-------------------------------------- vivek learning python  -----------------------------------------------------------")
+print("-------------------------------------- vivek learning python  -----------------------------------------------------------")
+ 
+# write a function to findin which line of the file does the word "learning" occure first print -1 if word not found 
+
+
+def check_for_line():
+   nword = "learning"
+   ndata = True
+   lineno = 1
+   with open("practice.txt","r") as n:
+      while ndata:
+         ndata = n.readline()
+         if(nword in ndata):
+            print(lineno)
+         lineno += 1
+
+
+check_for_line()
