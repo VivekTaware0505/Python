@@ -72,3 +72,23 @@ def check_for_line():
 
 
 check_for_line()
+
+
+print("-------------------------------------- vivek learning python  -----------------------------------------------------------")
+print("-------------------------------------- vivek learning python  -----------------------------------------------------------")
+
+
+# from a file containing numbers seperated by comma print the count of even numbers    
+
+with open("demo.txt","r") as t:
+   tdata = t.read()
+   print(tdata)
+
+   num = ""
+   for i in range(len(tdata)):
+      if(tdata[i] == ","):
+         print(int(num))
+         num = ""
+      else:
+         num += tdata[i]
+
