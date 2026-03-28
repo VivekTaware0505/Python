@@ -5,5 +5,27 @@ class student:
 
 
 
-v = student()
-print(v.name)
+v1 = student()
+print(v1.name)
+
+
+v2 = student()
+print(v2.name)
+
+print("-------------------------------------- vivek learning python  -----------------------------------------------------------")
+print("-------------------------------------- vivek learning python  -----------------------------------------------------------")
+
+
+# example of car factory 
+
+class Car:
+    color = " blue"
+
+car1 = Car()
+print("car 1 : ",car1.color)
+
+car2 = Car()
+print("car 2 : ",car2.color)
+
+car3 = Car()
+print("car 3 : ",car3.color)
