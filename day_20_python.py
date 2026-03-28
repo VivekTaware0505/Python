@@ -20,9 +20,10 @@ print("-------------------------------------- vivek learning python  -----------
 
 class Car:
     color = " blue"
+    brandname = "TATA"
 
 car1 = Car()
-print("car 1 : ",car1.color)
+print("car 1 : ",car1.color, car1.brandname)
 
 car2 = Car()
 print("car 2 : ",car2.color)
