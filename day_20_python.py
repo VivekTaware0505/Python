@@ -40,8 +40,11 @@ print("-------------------------------------- vivek learning python  -----------
 
 class college:
     new_name = "vivek taware"
-    def __init__(self):
-        print(self)
-        print("adding new student in database ...")
+    def __init__(self,fullname):
 
-c1 = college()
+        self.new_name = fullname
+        print(self)
+        print("adding new student in database ..." )
+
+c1 = college("babalu")
+print(c1.new_name)
