@@ -34,3 +34,13 @@ print("car 3 : ",car3.color)
 
 print("-------------------------------------- vivek learning python  -----------------------------------------------------------")
 print("-------------------------------------- vivek learning python  -----------------------------------------------------------")
+
+
+# init function in class and object 
+
+class college:
+    new_name = "vivek taware"
+    def __init__(self):
+        print("adding new student in database ...")
+
+c1 = college()
