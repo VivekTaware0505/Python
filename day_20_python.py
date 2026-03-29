@@ -41,6 +41,7 @@ print("-------------------------------------- vivek learning python  -----------
 class college:
     new_name = "vivek taware"
     def __init__(self):
+        print(self)
         print("adding new student in database ...")
 
 c1 = college()
