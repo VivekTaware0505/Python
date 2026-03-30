@@ -59,3 +59,7 @@ class transport:
 
 truck = transport()
 print("new no is :",truck.new_truck)
+
+
+print("-------------------------------------- vivek learning python  -----------------------------------------------------------")
+print("-------------------------------------- vivek learning python  -----------------------------------------------------------")
