@@ -52,3 +52,10 @@ print(c1.new_name)
 
 print("-------------------------------------- vivek learning python  -----------------------------------------------------------")
 print("-------------------------------------- vivek learning python  -----------------------------------------------------------")
+
+
+class transport:
+    new_truck = 1255
+
+truck = transport()
+print("new no is :",truck.new_truck)
