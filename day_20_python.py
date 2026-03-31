@@ -68,3 +68,20 @@ print("-------------------------------------- vivek learning python  -----------
 
 
 
+# creating constructor in class and object 
+
+class School:
+    
+    def __int__(self,naav,mark):
+        self.naav = naav
+        self.mark = mark
+        print("adding student mark and naav")
+
+
+ss1 = School("vivek", 88)
+print(ss1.naav, ss1.mark)
+
+ss2 = School("bablu", 95)
+print(ss2.naav, ss2.mark)
+        
+
