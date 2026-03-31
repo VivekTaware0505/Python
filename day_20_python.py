@@ -49,6 +49,8 @@ class college:
 c1 = college("babalu")
 print(c1.new_name)
 
+c2 = college("vivek")
+print(c2.new_name)
 
 print("-------------------------------------- vivek learning python  -----------------------------------------------------------")
 print("-------------------------------------- vivek learning python  -----------------------------------------------------------")
