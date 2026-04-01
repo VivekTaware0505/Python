@@ -72,15 +72,15 @@ print("-------------------------------------- vivek learning python  -----------
 
 class School():
     name = "babalu"
-    def __int__(self,naav,mark):
-        self.naav = naav
+    def __int__(self,name1,mark):
+        self.name1 = name1
         self.mark = mark
 
-        print("adding student mark and naav")
+        print("adding student mark and naav ...")
 
 
 ss1 = School("vivek",88)
-print(ss1.naav, ss1.mark)
+print(ss1.name1, ss1.mark)
 
 
         
