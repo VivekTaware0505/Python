@@ -12,3 +12,9 @@ class Student:
 
 s1 = Student("babalu",97)
 print(s1.name,s1.mark)
+
+print("-------------------------------------- vivek learning python  -----------------------------------------------------------")
+print("-------------------------------------- vivek learning python  -----------------------------------------------------------")
+
+
+# Methods In class and Object 
