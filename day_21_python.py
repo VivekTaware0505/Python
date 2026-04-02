@@ -18,3 +18,22 @@ print("-------------------------------------- vivek learning python  -----------
 
 
 # Methods In class and Object 
+
+
+class school:
+    school_name = "vivek's college"
+
+    def __init__(self, sname,smark):
+        self.sname = sname
+        self.smark = smark
+
+        def welcome(self):
+            print("welcome students .....")
+        
+        def get_mark(self):
+            return self.mark
+        
+v1 = school("vivek",99)
+v1.welcome()
+print(v1.get_mark())
+        
