@@ -18,3 +18,6 @@ class student:
 
 s1 = student([97, 98, 99], "vivek")   # ✔ correct order
 s1.get_avg()
+
+s1.name = " babalu "
+s1.get_avg()
