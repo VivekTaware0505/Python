@@ -23,20 +23,25 @@ print("-------------------------------------- vivek learning python  -----------
 class school:
     school_name = "vivek's college"
 
-    def __init__(self, sname,smark):
+    def __init__(self, sname, smark):
         self.sname = sname
         self.smark = smark
 
-        def welcome(self):
-            print("welcome students .....")
+    def welcome(self):
+        print("welcome students .....")
         
-        def get_mark(self):
-            return self.mark
-        
-v1 = school("vivek",99)
+    def get_mark(self):
+        return self.smark
+
+
+v1 = school("vivek", 99)
 v1.welcome()
 print(v1.get_mark())
+print(v1.sname)
         
 
 print("-------------------------------------- vivek learning python  -----------------------------------------------------------")
 print("-------------------------------------- vivek learning python  -----------------------------------------------------------")
+
+
+

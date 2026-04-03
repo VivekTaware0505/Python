@@ -72,7 +72,7 @@ print("-------------------------------------- vivek learning python  -----------
 
 class School():
     name = "babalu"
-    def __int__(self,name1,mark):
+    def __init__(self,name1,mark):
         self.name1 = name1
         self.mark = mark
 
