@@ -67,3 +67,26 @@ class Rectangle:
 r1 = Rectangle(10, 5)
 print("Area:", r1.area())
 print("Perimeter:", r1.perimeter())
+
+
+
+print("-------------------------------------- vivek learning python  -----------------------------------------------------------")
+print("-------------------------------------- vivek learning python  -----------------------------------------------------------")
+
+
+# create a simple calculator using class and object creation 
+
+class Calculator:
+    def __init__(self, a, b):
+        self.a = a
+        self.b = b
+
+    def add(self):
+        print("Sum:", self.a + self.b)
+
+    def multiply(self):
+        print("Multiplication:", self.a * self.b)
+
+calc = Calculator(5, 3)
+calc.add()
+calc.multiply()
