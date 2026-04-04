@@ -45,3 +45,25 @@ class Student:
 ss1 = Student("Vivek", [80, 90, 85])
 ss1.get_average()
 
+
+
+print("-------------------------------------- vivek learning python  -----------------------------------------------------------")
+print("-------------------------------------- vivek learning python  -----------------------------------------------------------")
+
+
+# create a class to fine rectangle area and parameter 
+
+class Rectangle:
+    def __init__(self, length, width):
+        self.length = length
+        self.width = width
+
+    def area(self):
+        return self.length * self.width
+
+    def perimeter(self):
+        return 2 * (self.length + self.width)
+
+r1 = Rectangle(10, 5)
+print("Area:", r1.area())
+print("Perimeter:", r1.perimeter())
