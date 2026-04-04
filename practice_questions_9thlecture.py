@@ -24,3 +24,24 @@ s1.get_avg()
 
 print("-------------------------------------- vivek learning python  -----------------------------------------------------------")
 print("-------------------------------------- vivek learning python  -----------------------------------------------------------")
+
+
+
+# create a class to get students average by using their marks 
+
+class Student:
+    def __init__(self, sname, smarks):
+        self.name = sname
+        self.marks = smarks
+
+    def get_average(self):
+        total = 0
+        for m in self.marks:
+            total += m
+        avg = total / len(self.marks)
+        print("Name:", self.name)
+        print("Average Marks:", avg)
+
+ss1 = Student("Vivek", [80, 90, 85])
+ss1.get_average()
+
