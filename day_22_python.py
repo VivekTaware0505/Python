@@ -44,13 +44,13 @@ class Account:
         self.account = ac
 
     def debit(self, amount):
-        self.balance = amount
+        self.balance -= amount
         print(" Rs . ", amount, " has debited")
         print(" total balance = ", self.get_balance())
 
 
     def credit(self, amount):
-        self.balance = amount
+        self.balance += amount
         print(" Rs. ", amount, " was credit ")
         print(" total balance = ", self.get_balance())
         
