@@ -37,6 +37,8 @@ class new_Student:
 ss1 = new_Student("Vivek", [80, 90, 85])
 print(ss1.get_result())
 
+print("-------------------------------------- vivek learning python  -----------------------------------------------------------")
+print("-------------------------------------- vivek learning python  -----------------------------------------------------------")
 
 # example no - 2 
 
@@ -54,3 +56,26 @@ class BankAccount:
 
 acc = BankAccount(1000)
 print(acc.deposit(500))
+
+print("-------------------------------------- vivek learning python  -----------------------------------------------------------")
+print("-------------------------------------- vivek learning python  -----------------------------------------------------------")
+
+
+# example no -3 
+
+class Employee:
+    def __init__(self, salary):
+        self.__salary = salary
+
+    def __bonus(self):
+        return self.__salary * 0.10
+
+    def total_salary(self):
+        return self.__salary + self.__bonus()
+
+
+e1 = Employee(20000)
+print(e1.total_salary())
+
+print("-------------------------------------- vivek learning python  -----------------------------------------------------------")
+print("-------------------------------------- vivek learning python  -----------------------------------------------------------")
