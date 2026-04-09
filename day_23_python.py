@@ -11,9 +11,6 @@ print(s1.name)
 
 print("-------------------------------------- vivek learning python  -----------------------------------------------------------")
 
-del s1
-print(s1)
-
 print("-------------------------------------- vivek learning python  -----------------------------------------------------------")
 print("-------------------------------------- vivek learning python  -----------------------------------------------------------")
 
@@ -26,3 +23,18 @@ print("-------------------------------------- vivek learning python  -----------
 
 
 
+class new_Student:
+    def __init__(self, name, marks):
+        self.name = name
+        self.__marks = marks
+
+    def __calculate_average(self):
+        return sum(self.__marks) / len(self.__marks)
+
+    def get_result(self):
+        avg = self.__calculate_average()
+        return avg
+
+
+ss1 = new_Student("Vivek", [80, 90, 85])
+print(ss1.get_result())
