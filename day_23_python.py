@@ -81,3 +81,17 @@ print("-------------------------------------- vivek learning python  -----------
 print("-------------------------------------- vivek learning python  -----------------------------------------------------------")
 
 
+# example no  - 4
+
+class person:
+
+
+    def __hallo(self):
+        print("hallo vivek !")
+    
+    def welcome(self):
+        self.__hallo()
+
+p1 = person()
+print(p1.welcome())
+        
