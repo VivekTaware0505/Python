@@ -37,3 +37,10 @@ print(car1.color)
 
 print("-------------------------------------- vivek learning python  -----------------------------------------------------------")
 print("-------------------------------------- vivek learning python  -----------------------------------------------------------")
+
+
+# types of inheritance 
+# 1 single inheritance 
+# 2 multi-level inheritance 
+# 3 multiple inheritance 
+
