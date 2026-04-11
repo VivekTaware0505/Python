@@ -2,7 +2,7 @@
 # when one class ( child or derived ) derives the properties and methods of another class (parent / base )
 
 class car:
-
+    color = "black"
     @staticmethod
     def start():
         print("car started ... ")
@@ -31,3 +31,9 @@ car2 = toyota("innova ")
 
 print(car1.start())
 print(car1.failbreak())
+print(car1.color)
+
+
+
+print("-------------------------------------- vivek learning python  -----------------------------------------------------------")
+print("-------------------------------------- vivek learning python  -----------------------------------------------------------")
