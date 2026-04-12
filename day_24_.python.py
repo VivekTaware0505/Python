@@ -85,20 +85,16 @@ print("-------------------------------------- vivek learning python  -----------
 # 3 multiple inheritance 
 
 
-
-class A:
+class A:     # base class 1
     var1 = "Welcome to class A "
     
 
-
-class B:
+class B:    # base class 2 
     var2 = "Welcome to class B "
-    
 
-class C(A, B):
+class C(A, B):  # derived class 
     var3 = "Welcome to class C "
     
-
 c1 = C()
 
 print(c1.var1)
