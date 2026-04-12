@@ -47,7 +47,7 @@ print("-------------------------------------- vivek learning python  -----------
 
 
 
-class carcompany:
+class carcompany:                # first class derived class 
     color = "black"
     @staticmethod
     def start():
@@ -64,11 +64,11 @@ class carcompany:
         self.__break()
     
 
-class suzuki(carcompany):
+class suzuki(carcompany):         # second class 
     def __init__(self, brand):
         self.brand = brand
 
-class ertiga(suzuki):
+class ertiga(suzuki):            # third class 
     def __init__(self, type):
         self.type = type
 
@@ -83,6 +83,28 @@ print("-------------------------------------- vivek learning python  -----------
 
 
 # 3 multiple inheritance 
+
+
+
+class A:
+    var1 = "Welcome to class A "
+    
+
+
+class B:
+    var2 = "Welcome to class B "
+    
+
+class C(A, B):
+    var3 = "Welcome to class C "
+    
+
+c1 = C()
+
+print(c1.var1)
+print(c1.var2)
+print(c1.var3)
+
 
 
 
