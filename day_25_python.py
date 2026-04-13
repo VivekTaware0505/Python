@@ -25,3 +25,26 @@ class toyotacar(car):
 car1 = toyotacar("innova ", " diesel ")
 print(car1.type)        
 
+
+
+print("-------------------------------------- vivek learning python  -----------------------------------------------------------")
+print("-------------------------------------- vivek learning python  -----------------------------------------------------------")
+
+
+# @classmethod decoretor 
+
+# A class method is bound to the class and recevies the class as an implicit first argument 
+# note : - static method can't be access or modify class state and generally for utility 
+
+# class attribute change 
+
+class person:
+    name = " babalu"
+
+    def changename(self , name):
+        person.name = name 
+
+p1 = person()
+p1.changename("vivek")
+print(p1.name)
+print(person.name)
