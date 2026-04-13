@@ -1,6 +1,14 @@
 # Inheritance 
 # when one class ( child or derived ) derives the properties and methods of another class (parent / base )
 
+
+# types of inheritance 
+# 1 single inheritance  --  parent class and child class 
+# 2 multi-level inheritance -- 1 paraent class -- 2 parent child class -- 3 child class three derived classes three properties 
+# 3 multiple inheritance 
+
+
+
 # 1 single inheritance example 
 
 class car:
@@ -111,8 +119,6 @@ print("-------------------------------------- vivek learning python  -----------
 print("-------------------------------------- vivek learning python  -----------------------------------------------------------")
 
 
-# types of inheritance 
-# 1 single inheritance  --  parent class and child class 
-# 2 multi-level inheritance -- 1 paraent class -- 2 parent child class -- 3 child class three derived classes three properties 
-# 3 multiple inheritance 
 
+
+print("-------------------------------------- vivek learning python  -----------------------------------------------------------")
