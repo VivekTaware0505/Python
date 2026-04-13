@@ -42,9 +42,14 @@ class person:
     name = " babalu"
 
     def changename(self , name):
-        person.name = name 
+        # person.name = name # first method 
+        self.__class__.name = "vivek"  # second method to access class 
+
+    # @classmethod
+    # def changename(cls,name):
+    # cls.name = name         ---- this one of the method to access the class attribute or change it ---- it not safe 
 
 p1 = person()
 p1.changename("vivek")
 print(p1.name)
-print(person.name)
+print(person.name) # it define we also changed original attribute 
