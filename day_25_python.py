@@ -77,3 +77,20 @@ print(Employee.get_count())
 
 print("-------------------------------------- vivek learning python  -----------------------------------------------------------")
 print("-------------------------------------- vivek learning python  -----------------------------------------------------------")
+
+
+
+class Student:
+    school = "ABC School"
+
+    @classmethod
+    def change_school(cls, name):
+        cls.school = name
+
+s1 = Student()
+Student.change_school("NEW  School")
+print(s1.school)
+
+
+print("-------------------------------------- vivek learning python  -----------------------------------------------------------")
+print("-------------------------------------- vivek learning python  -----------------------------------------------------------")
