@@ -60,3 +60,20 @@ print("-------------------------------------- vivek learning python  -----------
 
 
 
+class Employee:
+    count = 0
+
+    def __init__(self):
+        Employee.count += 1
+
+    @classmethod
+    def get_count(cls):
+        return cls.count
+
+e1 = Employee()
+e2 = Employee()
+print(Employee.get_count())
+
+
+print("-------------------------------------- vivek learning python  -----------------------------------------------------------")
+print("-------------------------------------- vivek learning python  -----------------------------------------------------------")
