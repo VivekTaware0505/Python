@@ -48,6 +48,26 @@ print("-------------------------------------- vivek learning python  -----------
 print("-------------------------------------- vivek learning python  -----------------------------------------------------------")
 
 
+
+class Parent:
+    def __init__(self, name):
+        self.name = name
+
+class Child(Parent):
+    def __init__(self, name, age):
+        super().__init__(name)
+        self.age = age
+
+obj = Child("Vivek", 20)
+print(obj.name, obj.age)
+
+
+
+
+print("-------------------------------------- vivek learning python  -----------------------------------------------------------")
+print("-------------------------------------- vivek learning python  -----------------------------------------------------------")
+
+
 # @classmethod decoretor 
 
 # A class method is bound to the class and recevies the class as an implicit first argument 
