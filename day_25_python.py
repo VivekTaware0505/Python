@@ -62,6 +62,26 @@ obj = Child("Vivek", 20)
 print(obj.name, obj.age)
 
 
+print("-------------------------------------- vivek learning python  -----------------------------------------------------------")
+print("-------------------------------------- vivek learning python  -----------------------------------------------------------")
+
+
+class X:
+    def display(self):
+        print("X display")
+
+class Y(X):
+    def display(self):
+        super().display()
+        print("Y display")
+
+class Z(Y):
+    def display(self):
+        super().display()
+        print("Z display")
+
+obj = Z()
+obj.display()
 
 
 print("-------------------------------------- vivek learning python  -----------------------------------------------------------")
