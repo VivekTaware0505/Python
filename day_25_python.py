@@ -26,6 +26,23 @@ car1 = toyotacar("innova ", " diesel ")
 print(car1.type)        
 
 
+print("-------------------------------------- vivek learning python  -----------------------------------------------------------")
+print("-------------------------------------- vivek learning python  -----------------------------------------------------------")
+
+
+class A:
+    def show(self):
+        print("Class A")
+
+class B(A):
+    def show(self):
+        super().show()
+        print("Class B")
+
+obj = B()
+obj.show()
+
+
 
 print("-------------------------------------- vivek learning python  -----------------------------------------------------------")
 print("-------------------------------------- vivek learning python  -----------------------------------------------------------")
