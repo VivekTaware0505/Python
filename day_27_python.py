@@ -13,8 +13,8 @@ print("-------------------------------------- vivek learning python  -----------
 
 # opeators and Dunder Functions 
 
-# a+b -> addition :-  a__add__(b)
-# a-b -> substraction :- a__sub__(b)
-# a*b -> multiplication :- a__mul___(b)
-# a/b -> divide   :- a__truediv____(b)
-# a%b -> addition  :- a__mod____(b)
+# a+b -> addition :-  1)  __add__(b)
+# a-b -> substraction :- 2) __sub__(b)
+# a*b -> multiplication :- 3) __mul___(b)
+# a/b -> divide   :- 4) __truediv____(b)
+# a%b -> addition  :- 5) __mod____(b)
