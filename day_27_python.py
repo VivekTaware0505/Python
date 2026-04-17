@@ -12,6 +12,23 @@ print("-------------------------------------- vivek learning python  -----------
 
 # complex numbers example 
 
+
+class complex:
+    def __init__(self, real, img):
+        self.real = real 
+        self.img = img 
+
+    def shownumber(self):
+        print(self.real, "i +", self.img,"j")
+num1 = complex(1, 3)
+num1.shownumber()
+        
+
+
+print("-------------------------------------- vivek learning python  -----------------------------------------------------------")
+print("-------------------------------------- vivek learning python  -----------------------------------------------------------")
+
+
 # opeators and Dunder Functions 
 
 # a+b -> addition :-  1)  __add__(b)
