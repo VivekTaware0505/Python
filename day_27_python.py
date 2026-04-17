@@ -20,8 +20,22 @@ class complex:
 
     def shownumber(self):
         print(self.real, "i +", self.img,"j")
+
+    def __add__(self, num2 ):
+        newreal = self.real + num2.real
+        newimg = self.img + num2.img
+        return complex(newreal, newimg)
+    
 num1 = complex(1, 3)
 num1.shownumber()
+
+num2 = complex(4,5)
+num2.shownumber()
+
+print("printing the addition of complex in :")
+
+num3 = num1 + num2
+num3.shownumber()
         
 
 
