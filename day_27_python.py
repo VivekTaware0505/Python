@@ -12,6 +12,7 @@ print("-------------------------------------- vivek learning python  -----------
 
 # complex numbers example 
 
+# opeators and Dunder Functions 
 
 class complex:
     def __init__(self, real, img):
@@ -21,16 +22,33 @@ class complex:
     def shownumber(self):
         print(self.real, "i +", self.img,"j")
 
+    # a+b -> addition :-  1)  __add__(b)
+
     def __add__(self, num2 ):
         newreal = self.real + num2.real
         newimg = self.img + num2.img
         return complex(newreal, newimg)
     
+    # a-b -> substraction :- 2) __sub__(b)
 
     def __sub__(self, num2 ):
         newreal = self.real - num2.real
         newimg = self.img - num2.img
         return complex(newreal, newimg)
+    
+    # a*b -> multiplication :- 3) __mul___(b)
+
+    def __mul___(self, num2 ):
+        newreal = self.real * num2.real
+        newimg = self.img * num2.img
+        return complex(newreal, newimg)
+    
+    # a/b -> divide   :- 4) __truediv____(b)
+    def __truediv____(self, num2 ):
+        newreal = self.real / num2.real
+        newimg = self.img / num2.img
+        return complex(newreal, newimg)
+
     
 num1 = complex(1, 3)
 num1.shownumber()
@@ -45,18 +63,26 @@ num3.shownumber()
         
 print(" printing the substraction of two numbers : ")
 
-num3 = num1 -  num2 
+num3 = num1 - num2 
+num3.shownumber()
+
+print(" printing the multiplication of two numbers : ")
+# num3 = num1 * num2
+num3.shownumber()
+
+print(" printing the divide of two numbers : ")
+num3 = num1 / num2
 num3.shownumber()
 
 print("-------------------------------------- vivek learning python  -----------------------------------------------------------")
 print("-------------------------------------- vivek learning python  -----------------------------------------------------------")
 
 
-# opeators and Dunder Functions 
 
-# a+b -> addition :-  1)  __add__(b)
-# a-b -> substraction :- 2) __sub__(b)
-# a*b -> multiplication :- 3) __mul___(b)
-# a/b -> divide   :- 4) __truediv____(b)
+
+
+
+
+
 # a%b -> addition  :- 5) __mod____(b)
 
