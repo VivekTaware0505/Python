@@ -71,7 +71,7 @@ print(" printing the multiplication of two numbers : ")
 num3.shownumber()
 
 print(" printing the divide of two numbers : ")
-num3 = num1 / num2
+# num3 = num1 / num2
 num3.shownumber()
 
 print("-------------------------------------- vivek learning python  -----------------------------------------------------------")
