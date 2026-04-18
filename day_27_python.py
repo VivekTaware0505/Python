@@ -79,10 +79,5 @@ print("-------------------------------------- vivek learning python  -----------
 
 
 
-
-
-
-
-
 # a%b -> addition  :- 5) __mod____(b)
 
