@@ -17,7 +17,35 @@ class circle:
 c1 = circle(21)
 print(c1.area())
 print(c1.perimeter())
-        
+
+
+
+print("-------------------------------------- vivek learning python -----------------------------------------------------------")
+print("-------------------------------------- vivek learning python -----------------------------------------------------------")
+
+
+# Q2 define a employee class with attribute role department and salary this class has a also showdetails() method 
+# create an engineer class that inherits propeties from employee  and has additional attributes : name and age 
+
+class employee:
+    def __init__(self, dep , role , salary):
+        self.role = role
+        self.dep = dep
+        self.salary = salary 
+
+    def showdetail(self):
+        print(" Role  = ", self.role)
+        print("Department = ", self.dep)
+        print(" salary = ", self.salary)
+
+class engineer(employee):
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+        super().__init__(" engineer", " IT ", " 75000")
+
+eg1 =  engineer("vivek", " 22")
+eg1.showdetail()
 
 
 
